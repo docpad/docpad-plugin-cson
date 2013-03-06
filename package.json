@@ -1,6 +1,6 @@
 {
 	"name": "docpad-plugin-cson",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "Adds support for CSON to JSON compilation to DocPad",
 	"homepage": "http://docpad.org/plugin/cson",
 	"keywords": [
@@ -14,11 +14,11 @@
 	],
 	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
 	"maintainers": [
-		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)",
+		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
 		"Defel (https://github.com/defel)"
 	],
 	"contributors": [
-		"Benjamin Lupton <b@lupton.cc> (http://balupton.com)",
+		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
 		"Defel (https://github.com/defel)"
 	],
 	"bugs": {
@@ -29,17 +29,17 @@
 		"url": "http://github.com/docpad/docpad-plugin-cson.git"
 	},
 	"engines" : {
-		"node": ">=0.4.0",
+		"node": ">=0.4",
 		"docpad": "6.x"
 	},
 	"dependencies": {
-		"cson": "1.4.x"
+		"cson": "~1.4.0"
 	},
 	"devDependencies": {
-		"coffee-script": "1.4.x"
+		"coffee-script": "~1.4.0"
 	},
 	"main": "./out/cson.plugin.js",
 	"scripts": {
-		"test": "node ./test/cson.test.js"
+		"test": "node ./out/cson.test.js"
 	}
 }
