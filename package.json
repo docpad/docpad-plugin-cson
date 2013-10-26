@@ -29,8 +29,7 @@
     "url": "http://github.com/docpad/docpad-plugin-cson.git"
   },
   "engines": {
-    "node": ">=0.4",
-    "docpad": "6.x"
+    "node": ">=0.4"
   },
   "dependencies": {
     "cson": "~1.4.0"
