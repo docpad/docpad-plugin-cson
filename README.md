@@ -70,6 +70,7 @@ These amazing people have contributed code to this project:
 
 - [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/docpad/docpad-plugin-cson/commits?author=balupton)
 - [Defel](https://github.com/defel) — [view contributions](https://github.com/docpad/docpad-plugin-cson/commits?author=defel)
+- [timaschew](https://github.com/timaschew) — [view contributions](https://github.com/docpad/docpad-plugin-cson/commits?author=timaschew)
 
 [Become a contributor!](https://github.com/docpad/docpad-plugin-cson/blob/master/CONTRIBUTING.md#files)
 
