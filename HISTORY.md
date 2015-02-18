@@ -1,6 +1,6 @@
 # History
 
-## v2.2.0 December 5, 2014
+## v2.2.0 February 18, 2015
 - Dependency upgrades
 - Now renders JSON with CSON's `createJSONString`
 	- Now uses CSON's `createJSONString` indentation defaults rather than our own default
