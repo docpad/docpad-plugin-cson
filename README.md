@@ -27,6 +27,12 @@ Convention:  `.json.cson`
 docpad install cson
 ```
 
+
+## Configuration
+
+You can configure the plugin's `indent` option to `false` for no indentation, or the value that you would like to indent by.
+
+
 <!-- HISTORY/ -->
 
 ## History

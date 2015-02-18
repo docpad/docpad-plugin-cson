@@ -5,10 +5,6 @@ module.exports = (BasePlugin) ->
 		# Plugin Name
 		name: 'cson'
 
-		# Plugin Configuration
-		config:
-			indent: false
-
 		# =============================
 		# Events
 
@@ -23,15 +19,20 @@ module.exports = (BasePlugin) ->
 			if inExtension is 'cson' and outExtension in ['json',null]
 				# Render and complete
 				CSON = require('cson')
-				CSON.parse opts.content, (err,obj) ->
-					return next(err)  if err
-					if config.indent is false
-						opts.content = JSON.stringify(obj)
-					else if config.indent is true
-						opts.content = JSON.stringify(obj,null,4)
-					else
-						opts.content = JSON.stringify(obj,null,config.indent)
-					return next()
+
+				# Parse CSON
+				result = CSON.parseCSONString(opts.content)
+				return next(result)  if result instanceof Error
+
+				# Create JSON
+				result = CSON.createJSONString(result, config)
+				return next(result)  if result instanceof Error
+
+				# Apply
+				opts.content = result
+
+				# Complete
+				return next()
 
 			# Something else
 			else
