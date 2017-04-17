@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-cson",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "Adds support for CSON to JSON compilation to DocPad",
   "homepage": "https://github.com/docpad/docpad-plugin-cson",
   "license": "MIT",
@@ -87,7 +87,7 @@
   ],
   "main": "es5/cson.plugin.js",
   "dependencies": {
-    "cson": "^2.0.0"
+    "cson": "^4.1.0"
   },
   "devDependencies": {
     "coffee-script": "^1.12.5",
@@ -118,8 +118,5 @@
     "our:release:tag": "export MESSAGE=$(cat ./HISTORY.md | sed -n \"/## v$npm_package_version/,/##/p\" | sed 's/## //' | awk 'NR>1{print buf}{buf = $0}') && test \"$MESSAGE\" || (echo 'proper changelog entry not found' && exit -1) && git tag v$npm_package_version -am \"$MESSAGE\"",
     "our:release:push": "git push origin master && git push origin --tags",
     "test": "node --harmony es5/cson.test.js --joe-reporter=console"
-  },
-  "directories": {
-    "lib": "./out/lib"
   }
 }

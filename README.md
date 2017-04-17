@@ -35,7 +35,7 @@ docpad install cson
 
 ## Configuration
 
-You can configure the plugin's `indent` option to `false` for no indentation, or the value that you would like to indent by.
+The plugin configuration is sent as the options for [CSON's `createJSONString` method](http://v4.1.0.cson.bevry.surge.sh/docs/classes/CSON.html#createJSONString-instance). So you can set the `indent` option to something else if you want.
 
 
 <!-- HISTORY/ -->
