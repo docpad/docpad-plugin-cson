@@ -1,6 +1,6 @@
 {
   "name": "docpad-plugin-cson",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Adds support for CSON to JSON compilation to DocPad",
   "homepage": "https://github.com/docpad/docpad-plugin-cson",
   "license": "MIT",
