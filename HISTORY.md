@@ -1,5 +1,10 @@
 # History
 
+## v2.5.0 2018 June 25
+- Now compiled with CoffeeScript v2
+- Updated dependencies
+- Updated base files
+
 ## v2.4.0 2017 April 17
 - Updated cson version
 
