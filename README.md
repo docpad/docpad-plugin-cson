@@ -42,6 +42,8 @@ The plugin configuration is sent as the options for [CSON's `createJSONString` m
 
 
 
+
+
 <!-- HISTORY/ -->
 
 <h2>History</h2>
