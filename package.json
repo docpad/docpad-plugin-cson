@@ -102,7 +102,7 @@
   "type": "commonjs",
   "main": "edition-esnext/index.js",
   "dependencies": {
-    "cson": "^7.20.0",
+    "cson": "^8.2.0",
     "docpad-baseplugin": "^1.4.0"
   },
   "devDependencies": {
